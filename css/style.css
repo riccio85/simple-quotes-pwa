@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.container-item {
+    max-width: 80%;
+    text-align: center;
+    color: #78909c;
+}
+
+.quote {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.quote-text {
+     quotes: "“"  "„" "‚" "‘";
+}
+
+.author {
+    font-size: 2rem;
+    text-align: right;
+}
+/*.fadein {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}*/
+.fadeout {
+    -webkit-transition: opacity 10s ease-in-out;
+    -moz-transition:    opacity 10s ease-in-out;
+    -ms-transition:     opacity 10s ease-in-out;
+    -o-transition:      opacity 10s ease-in-out;
+    opacity: 1;
+}
